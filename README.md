@@ -1,17 +1,5 @@
 # 의료 데이터에서 SSL을 위한 최적의 데이터 증강 기법 연구
 
-### 📝 Contents
-1. [배경 및 목적](#📈-배경-및-주제)  
-2. [주최/주관 & 팀원](#2-팀원)  
-3. [프로젝트 기간](#3-프로젝트-기간)  
-4. [프로젝트 소개](#4-프로젝트-소개)  
-   4.1 [프로젝트 과정](#41-프로젝트-과정)  
-   4.2 [모델 설명](#42-사용한-모델)  
-5. [Inference](#5-inference)  
-6. [Result](#6-result)  
-7. [발표 자료](#발표-자료)
-
-
 ## ⭐ 배경 및 주제
 - 의료 데이터에서 SSL로 학습하기 위한 최적의 데이터 증강 기법을 연구하여 downstream task인 질환 분류에서 높은 성능을 달성하는 것을 목표로 한다. 
 - Self-Supervised Learning(SSL)은 라벨 없이 데이터로부터 표현을 학습하는 기법으로, 특히 의료 데이터에서 그 중요성이 강조된다. 본 프로젝트를 통해 라벨링에 많은 시간과 비용이 소요되는 문제, 의료진 간 해석 차이로 인해 일관성이 부족한 문제, 희귀 질환이나 소아·노인 전용 데이터의 부족 문제, 환자 프라이버시와 데이터 보호 규정에 따른 데이터 활용 제한 등 다양한 제약이 존재하는 의료 데이터의 문제를 해결하고자 한다. 
@@ -67,12 +55,16 @@
 <img src="https://github.com/user-attachments/assets/fd5a9c07-3597-4843-82e3-894be8a7d9bd" width="700">
 
 ### Simclr
-
+<img src="https://github.com/user-attachments/assets/a55cb1cf-9187-40e7-a382-f153d06f4997" width="700">
 
 ### BYOL
+<img src="https://github.com/user-attachments/assets/34320171-b3fa-420a-bc82-2b870e3fb6f4" width="700">
 
 ### SL
+<img src="https://github.com/user-attachments/assets/38f9cd08-0f28-4805-bb9e-1d86f7c4969c" width="700">
 
+### GradCAM
+<img src="https://github.com/user-attachments/assets/d6f8aac8-bb8b-4cb0-8098-c99c2bfd5e79" width="700">
 
 ## 🛠️ **설치 및 실행 방법**
 1. **Clone the repository**
@@ -105,11 +97,12 @@
    ```
 
 ### 👏 결론
-- SimCLR
-데이터 불균형에 의한 성능 저하
-의료 데이터 특성 상 Negative Pair 선정 어려움이 존재
-Data Augmentation 기법에 예민함
+- **SimCLR**
+  - 데이터 불균형에 의한 성능 저하
+  - 의료 데이터 특성 상 Negative Pair 선정 어려움이 존재
+  - Data Augmentation 기법에 예민함
 
-- BYOL
-데이터 불균형에 강함
-비교적 Data Augmentation에 예민하지 않음
+- **BYOL**
+  - 데이터 불균형에 강함
+  - 비교적 Data Augmentation에 예민하지 않음
+
