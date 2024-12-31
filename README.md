@@ -47,14 +47,14 @@
 | <img src="https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b" height="500"> | <img src="https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc" height="500"> |
 
 ## 📝 사용 모델 설명
-**SimCLR**
-![비전AI와비즈니스_최종발표 (3)](https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c)
+**SimCLR**  
+<img src="https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c" height="700">
 
-**BYOL**
-![비전AI와비즈니스_최종발표 (4)](https://github.com/user-attachments/assets/7048f947-e238-4914-8ee9-23b661b3c4e9)
+**BYOL**  
+<img src="https://github.com/user-attachments/assets/7048f947-e238-4914-8ee9-23b661b3c4e9" height="700">
 
-**GradCAM**
-![비전AI와비즈니스_최종발표 (1)](https://github.com/user-attachments/assets/71349624-31b6-4cd2-8796-1c39adaa0459)
+**GradCAM**  
+<img src="https://github.com/user-attachments/assets/71349624-31b6-4cd2-8796-1c39adaa0459" height="700">
 
 
 ## 사용한 데이터 증강 기법
