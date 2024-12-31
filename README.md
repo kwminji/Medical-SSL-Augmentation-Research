@@ -95,6 +95,9 @@
    python train.py
    python evaluate.py
    ```
+### 👏 결론
+ㅇㅇ
+
 
 ### 👏 결론
 **SimCLR**
