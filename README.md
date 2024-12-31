@@ -48,13 +48,13 @@
 
 ## 📝 사용 모델 설명
 **SimCLR**  
-<img src="https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c" height="700">
+<img src="https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c" width="700">
 
 **BYOL**  
-<img src="https://github.com/user-attachments/assets/7048f947-e238-4914-8ee9-23b661b3c4e9" height="700">
+<img src="https://github.com/user-attachments/assets/7048f947-e238-4914-8ee9-23b661b3c4e9" width="700">
 
 **GradCAM**  
-<img src="https://github.com/user-attachments/assets/71349624-31b6-4cd2-8796-1c39adaa0459" height="700">
+<img src="https://github.com/user-attachments/assets/71349624-31b6-4cd2-8796-1c39adaa0459" width="700">
 
 
 ## 사용한 데이터 증강 기법
