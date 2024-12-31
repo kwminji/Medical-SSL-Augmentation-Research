@@ -49,14 +49,7 @@
 ## 🖼️ 사용한 데이터 증강 기법
 | **Random GaussianBlur** | **Random Flip** | **Random Rotation** | **Chess board** | **Random Erasing** |
 |--------------------------|------------------|---------------------|------------------|--------------------|
-| ![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9) | ![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752) | ![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d) | ![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4) | ![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1) |
-
-## 🖼️ 사용한 데이터 증강 기법
-| **Random GaussianBlur** | **Random Flip** | **Random Rotation** | **Chess board** | **Random Erasing** |
-|--------------------------|------------------|---------------------|------------------|--------------------|
-| ![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9) | ![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752) | ![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d) | ![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4) | ![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1) |
-| <img src="https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9" width="500" /> | <img src="https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752" width="500" /> | <img src="https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d" width="500" /> | <img src="https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4" width="500" /> | <img src="https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1" width="500" /> |
-
+| ![image](https://github.com/user-attachments/assets/1291341e-f5c2-40e9-a77d-ae3931ccc551) | ![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752) | ![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d) | ![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4) | ![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1) |
 
 ## 📈 실험 결과
 <img src="https://github.com/user-attachments/assets/fd5a9c07-3597-4843-82e3-894be8a7d9bd" width="700">
