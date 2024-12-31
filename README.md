@@ -1,1 +1,2 @@
-# Medical-SSL-Augmentation-Research
+# 의료 데이터에서의 SSL을 위한 최적의 데이터 증강 기법 연구
+---
