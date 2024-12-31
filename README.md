@@ -41,10 +41,10 @@
   
 ## 🔎 전처리 
 - **CLAHE** : 이미지 대비 개선을 위해 사용
+
 | 적용 전 | 적용 후 |
 |----------|----------|
-| ![ChestPA_Abnormal_00000002](https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b) | ![ChestPA_Abnormal_00000002 (1)](https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc) |
-
+| <img src="https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b" height="500"> | <img src="https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc" height="500"> |
 
 ## 📝 사용 모델 설명
 **SimCLR**
