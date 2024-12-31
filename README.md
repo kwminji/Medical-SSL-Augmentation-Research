@@ -95,16 +95,13 @@
    python train.py
    python evaluate.py
    ```
-### 👏 결론
-ㅇㅇ
-
 
 ### 👏 결론
-**SimCLR**
-- 데이터 불균형에 의한 성능 저하
-- 의료 데이터 특성 상 Negative Pair 선정 어려움이 존재
-- Data Augmentation 기법에 예민함
+- **SimCLR**
+  - 데이터 불균형에 의한 성능 저하
+  - 의료 데이터 특성 상 Negative Pair 선정 어려움이 존재
+  - Data Augmentation 기법에 예민함
 
-**BYOL**
-- 데이터 불균형에 강함
-- 비교적 Data Augmentation에 예민하지 않음
+- **BYOL**
+  - 데이터 불균형에 강함
+  - 비교적 Data Augmentation에 예민하지 않음
