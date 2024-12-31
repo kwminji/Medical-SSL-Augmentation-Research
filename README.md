@@ -34,6 +34,9 @@
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b" height="500"> | <img src="https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc" height="500"> |
 
+| 적용 전 | 적용 후 |
+|----------|----------|
+| <img src="https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b" width="500" height="350"> | <img src="https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc" width="500" height="350"> |
 
 ## 💻 사용 모델 설명
 ### SimCLR
