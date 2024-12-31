@@ -1,6 +1,6 @@
 # 의료 데이터에서 SSL을 위한 최적의 데이터 증강 기법 연구
 
-### Contents
+### 📝 Contents
 1. [배경 및 목적](#📈-배경-및-주제)  
 2. [주최/주관 & 팀원](#2-팀원)  
 3. [프로젝트 기간](#3-프로젝트-기간)  
@@ -46,7 +46,7 @@
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b" height="500"> | <img src="https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc" height="500"> |
 
-## 📝 사용 모델 설명
+## 💫 사용 모델 설명
 **SimCLR**  
 <img src="https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c" width="700">
 
@@ -57,4 +57,25 @@
 <img src="https://github.com/user-attachments/assets/71349624-31b6-4cd2-8796-1c39adaa0459" width="700">
 
 
-## 사용한 데이터 증강 기법
+## 🖼️ 사용한 데이터 증강 기법
+| **Random GaussianBlur** | **Random Flip** | **Random Rotation** | **Chess board** | **Random Erasing** |
+|--------------------------|------------------|---------------------|------------------|--------------------|
+| ![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9) | ![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752) | ![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d) | ![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4) | ![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1) |
+
+
+Random GaussianBlur
+![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9)
+
+Random Flip
+![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752)
+
+Random Rotation
+![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d)
+
+Chess board
+![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4)
+
+Random Erasing
+![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1)
+
+
