@@ -64,7 +64,15 @@
 | ![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9) | ![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752) | ![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d) | ![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4) | ![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1) |
 
 ## 📈 실험 결과
-<img src="(https://github.com/user-attachments/assets/fd5a9c07-3597-4843-82e3-894be8a7d9bd" width="700">
+<img src="https://github.com/user-attachments/assets/fd5a9c07-3597-4843-82e3-894be8a7d9bd" width="700">
+
+### Simclr
+
+
+### BYOL
+
+### SL
+
 
 ## 🛠️ **설치 및 실행 방법**
 1. **Clone the repository**
@@ -96,4 +104,12 @@
    python evaluate.py
    ```
 
-## 발표 자료
+### 👏 결론
+- SimCLR
+데이터 불균형에 의한 성능 저하
+의료 데이터 특성 상 Negative Pair 선정 어려움이 존재
+Data Augmentation 기법에 예민함
+
+- BYOL
+데이터 불균형에 강함
+비교적 Data Augmentation에 예민하지 않음
