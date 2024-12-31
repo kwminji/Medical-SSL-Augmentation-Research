@@ -54,7 +54,7 @@
 ## 📈 실험 결과
 <img src="https://github.com/user-attachments/assets/fd5a9c07-3597-4843-82e3-894be8a7d9bd" width="700">
 
-### Simclr
+### SimCLR
 <img src="https://github.com/user-attachments/assets/a55cb1cf-9187-40e7-a382-f153d06f4997" width="700">
 
 ### BYOL
