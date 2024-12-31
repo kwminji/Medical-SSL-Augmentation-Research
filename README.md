@@ -21,8 +21,7 @@
 ## 📅 진행 기간 
 - **2024.11 ~ 2024.12 (2개월)**
 
-## 🚀 프로젝트 소개
-### 프로젝트 과정
+## 🚀 파이프라인
 ![비전AI와비즈니스_최종발표](https://github.com/user-attachments/assets/b3bd18fd-3a3b-4783-b09d-4e7a2f04c4e5)
 1. 두 개의 X-ray 데이터셋을 사용해 각 관절별로 정상과 비정상을 구분하는 이진 분류용 데이터셋을 구성한다.
 2. 해당 데이터셋에서 데이터의 라벨을 삭제 후 다양한 데이터 증강 기법의 조합을 적용하여 SimCLR과 BYOL을 학습을 시킨다.
@@ -30,17 +29,17 @@
 4. SSL 학습이 끝난 후 다시 데이터셋에 라벨을 포함하여 SL 방식으로 Logistic Regression 모델을 학습시켜 SSL이 잘 학습이 되었는지 확인한다.
 5. Grad-CAM을 활용하여 모델이 어떤 부분을 보고 예측하는지 시각화하여 분석한다.
 
-### 데이터셋
+## ⚙️ 데이터셋
 - **AI Hub 주요질환 이미지 합성데이터셋(X-ray)**
 - **MURA**
   
-### 전처리 
+## 🔎 전처리 
 - **CLAHE** : 이미지 대비 개선을 위해 사용
 | 적용 전 | 적용 후 |
 |----------|----------|
 |<img src="![ChestPA_Abnormal_00000002](https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b)" height = "500"> | <img src ="![ChestPA_Abnormal_00000002 (1)](https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc)" height = "500"> |
 
-### 사용 모델 설명
+## 📝 사용 모델 설명
 **SimCLR**
 ![비전AI와비즈니스_최종발표 (3)](https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c)
 
@@ -50,3 +49,4 @@
 **GradCAM**
 ![비전AI와비즈니스_최종발표 (1)](https://github.com/user-attachments/assets/71349624-31b6-4cd2-8796-1c39adaa0459)
 
+## 사용한 데이터 증강 기법
