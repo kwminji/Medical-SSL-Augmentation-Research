@@ -68,17 +68,18 @@
 
 ## 🛠️ **설치 및 실행 방법**
 1. **Clone the repository**
-   '''
-   https://github.com/kwminji/Medical-SSL-Augmentation-Research.git
+   ```bash
+   git clone https://github.com/kwminji/Medical-SSL-Augmentation-Research.git
    cd Medical-SSL-Augmentation-Research
-   '''
+   ```
    
-3. **Install required packages**
-   '''
+2. **Install required packages**
+   ```bash
    pip install -r requirements.txt
-   '''
-5. **Run**
-   '''
+   ```
+   
+3. **Run**
+   ```bash
    ### SimCLR
    cd SimCLR
    python train_epoch.py
@@ -93,6 +94,6 @@
    cd SL
    python train.py
    python evaluate.py
-   '''
+   ```
 
 ## 발표 자료
