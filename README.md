@@ -12,7 +12,7 @@
 7. [발표 자료](#발표-자료)
 
 
-## 📈 배경 및 주제
+## ⭐ 배경 및 주제
 - 의료 데이터에서 SSL로 학습하기 위한 최적의 데이터 증강 기법을 연구하여 downstream task인 질환 분류에서 높은 성능을 달성하는 것을 목표로 한다. 
 - Self-Supervised Learning(SSL)은 라벨 없이 데이터로부터 표현을 학습하는 기법으로, 특히 의료 데이터에서 그 중요성이 강조된다. 본 프로젝트를 통해 라벨링에 많은 시간과 비용이 소요되는 문제, 의료진 간 해석 차이로 인해 일관성이 부족한 문제, 희귀 질환이나 소아·노인 전용 데이터의 부족 문제, 환자 프라이버시와 데이터 보호 규정에 따른 데이터 활용 제한 등 다양한 제약이 존재하는 의료 데이터의 문제를 해결하고자 한다. 
 
@@ -46,7 +46,8 @@
 |----------|----------|
 | <img src="https://github.com/user-attachments/assets/0078b445-94fe-455a-83b3-3ccc271b987b" height="500"> | <img src="https://github.com/user-attachments/assets/aa9c8be1-c263-4bc4-84f2-d657ab351afc" height="500"> |
 
-## 💫 사용 모델 설명
+
+## 💻 사용 모델 설명
 **SimCLR**  
 <img src="https://github.com/user-attachments/assets/f5142624-5940-425f-8000-d558b07b201c" width="700">
 
@@ -62,20 +63,36 @@
 |--------------------------|------------------|---------------------|------------------|--------------------|
 | ![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9) | ![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752) | ![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d) | ![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4) | ![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1) |
 
+## 📈 실험 결과
+<img src="(https://github.com/user-attachments/assets/fd5a9c07-3597-4843-82e3-894be8a7d9bd" width="700">
 
-Random GaussianBlur
-![image](https://github.com/user-attachments/assets/75251027-3165-4b0c-b817-185c392092c9)
+## 🛠️ **설치 및 실행 방법**
+1. **Clone the repository**
+   '''
+   https://github.com/kwminji/Medical-SSL-Augmentation-Research.git
+   cd Medical-SSL-Augmentation-Research
+   '''
+   
+3. **Install required packages**
+   '''
+   pip install -r requirements.txt
+   '''
+5. **Run**
+   '''
+   ### SimCLR
+   cd SimCLR
+   python train_epoch.py
+   python evaluate.py
+   
+   ### BYOL
+   cd BYOL
+   python trainer.py
+   python evaluate.py
+   
+   ### SL 
+   cd SL
+   python train.py
+   python evaluate.py
+   '''
 
-Random Flip
-![image](https://github.com/user-attachments/assets/67c0dbc2-d2e5-43ad-910e-43c5b3017752)
-
-Random Rotation
-![image](https://github.com/user-attachments/assets/a2e60c88-f1e1-465d-825f-ee818eca579d)
-
-Chess board
-![image](https://github.com/user-attachments/assets/4c68f9a8-46ee-490c-b07d-26db77415ae4)
-
-Random Erasing
-![image](https://github.com/user-attachments/assets/a1a53277-7357-43b8-9673-4a769b8c25b1)
-
-
+## 발표 자료
